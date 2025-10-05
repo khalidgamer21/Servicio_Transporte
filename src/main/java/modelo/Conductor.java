@@ -14,10 +14,10 @@ public class Conductor extends Usuario {
     }
 
     // Constructor con parámetros
-    public Conductor(String telefono, String cedula, String nombre, String licencia, boolean estado) {
-        super(telefono, cedula, nombre);
-        this.licencia = licencia;
+    public Conductor(String nombre, String cedula, String telefono, boolean estado, String licencia) {
+        super(nombre, cedula, telefono);
         this.estado = estado;
+        this.licencia = licencia;
     }
 
     // Métodos getters
