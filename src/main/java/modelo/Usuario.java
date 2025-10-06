@@ -36,7 +36,7 @@ public abstract class Usuario {
     // Método que devuelve la información completa del conductor como texto
     @Override
     public String toString() {
-        return "NOMBRE: " + nombre + " | CEDULA: " + cedula + " | TELEFONO: " +  telefono  ;
+        return "NOMBRE: " + nombre + " | CEDULA: " + cedula + " | TELEFONO: " +  telefono ;
     }
 }
 
